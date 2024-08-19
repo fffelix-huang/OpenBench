@@ -1,11 +1,11 @@
 {
     "private" : false,
-    "nps"     : 1198000,
+    "nps"     : 1000000,
     "source"  : "https://github.com/fffelix-huang/Sonic",
 
     "build" : {
         "path"      : "",
-        "compilers" : ["g++"],
+        "compilers" : ["clang, g++"],
         "cpuflags"  : ["POPCNT"],
         "systems"   : ["Windows", "Linux"]
     },
