@@ -31,6 +31,20 @@
             "both_options"      : "Threads=1 Hash=64",
             "both_time_control" : "40.0+0.4",
             "workload_size"     : 8
+        },
+
+        "STC Simplification" : {
+            "both_options"      : "Threads=1 Hash=8",
+            "both_time_control" : "8.0+0.08",
+            "workload_size"     : 32,
+            "test_bounds"       : "[-1.75, 0.25]"
+        },
+
+        "LTC Simplification" : {
+            "both_options"      : "Threads=1 Hash=64",
+            "both_time_control" : "40.0+0.4",
+            "workload_size"     : 8,
+            "test_bounds"       : "[-1.75, 0.25]"
         }
     },
 
